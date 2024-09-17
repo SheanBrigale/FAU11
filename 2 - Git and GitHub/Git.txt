@@ -12,7 +12,7 @@ Git Three Stage Architecture
 1. Working Area (FAU11)
 2. Staging Area
 - Add all the files that are modified to the staging area 
-git add.
+git add .
 3. Commit Stage
 -Create a Commit
 git commit -m "This is the Description."
@@ -31,3 +31,11 @@ git branch [branch-name]
 - switch into a branch
 git checkout [branch-name]
 git switch [branch-name]
+
+== Merging ==
+
+- Merge a branch to current branch
+git merge [branch name]
+
+- Delete a branch
+git branch -d [branch name]
